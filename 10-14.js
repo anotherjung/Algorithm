@@ -104,23 +104,23 @@
 // console.log(y)
 
 //12 given an array, print out the max number, min number, and the avg
-// var x = [22,6,99,-5,0]
-// var min = x[0]
-// var max = x[0]
-// var sum = 0
-// for (var i=0; i<x.length; i++) {
-// 	if (x[i] < min) {
-// 		min = x[i]
-// 	}
-// 	if (x[i] > max) {
-// 		max = x[i]
-// 	}
-// 	sum = sum + x[i]
-// }
-// console.log('min is ', min)
-// console.log('max is ', max)
-// var avg = sum / x.length
-// console.log('avg is ', avg)
+var x = [22,6,99,-5,0]
+var min = x[0]
+var max = x[0]
+var sum = 0
+for (var i=0; i<x.length; i++) {
+	if (x[i] < min) {
+		min = x[i]
+	}
+	if (x[i] > max) {
+		max = x[i]
+	}
+	sum = sum + x[i]
+}
+console.log('min is ', min)
+console.log('max is ', max)
+var avg = sum / x.length
+console.log('avg is ', avg)
 
 
 
