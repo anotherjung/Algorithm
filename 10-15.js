@@ -20,16 +20,16 @@
 // console.log('avg is ', avg)
 
 //2 given an array, shift each number to the front, first number should loop to the end
-// var x = [1,44,77,99,-3]
-// var y = x[0]
-// for (var i=0; i<x.length; i++) {
-// 	//console.log('1', x[i])
-// 	//set the current x[i] to the next
-// 	x[i] = x[i+1];
-// 	//console.log('2', x[i])
-// }
-// x[x.length-1] = y
-// console.log(x)
+var x = [1,44,77,99,-3]
+var y = x[0]
+for (var i=0; i<x.length; i++) {
+	//console.log('1', x[i])
+	//set the current x[i] to the next
+	x[i] = x[i+1];
+	//console.log('2', x[i])
+}
+x[x.length-1] = y
+console.log(x)
 
 //3 given an array of numbers, replace all negative number with your name
 // var x = [22,-77,99,-33]
@@ -139,7 +139,7 @@ function iSum(num) {
 	var sum = 0
 	for(var i=0; i<= num; i++) {
 		sum = sum + i
-		console.log(i)
+		console.log('i:',i,' sum:',sum)
 	}
 	return sum
 }
