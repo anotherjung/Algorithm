@@ -32,43 +32,43 @@ x[x.length-1] = y
 console.log(x)
 
 //3 given an array of numbers, replace all negative number with your name
-// var x = [22,-77,99,-33]
-// var name = 'batman'
-// for (var i=0; i<x.length; i++) {
-// 	if (x[i] < 0) {
-// 		x[i] = name
-// 	}
-// }
-// console.log(x)
+var x = [22,-77,99,-33]
+var name = 'batman'
+for (var i=0; i<x.length; i++) {
+	if (x[i] < 0) {
+		x[i] = name
+	}
+}
+console.log(x)
 
 //4 create an array with 10 numbers, generated randomly from 1 to 100, print out the array
-// var x = []
-// for (var i=0; i<10; i++) {
-// 	//Math.random will return 0 to .9999, up to 0 but not 1
-// 	//Math.floor will round the number down, removed the decimal 
-// 	var random = Math.floor(Math.random()*101)
-// 	x.push(random)
-// }
-// console.log(x)
+var x = []
+for (var i=0; i<10; i++) {
+	//Math.random will return 0 to .9999, up to 0 but not 1
+	//Math.floor will round the number down, removed the decimal 
+	var random = Math.floor(Math.random()*101)
+	x.push(random)
+}
+console.log(x)
 
 //5 given an array of numbers, swap the first number with the last number without creating another array
-// var x = [11,3,-99,44]
-// var temp = x[0]
-// x[0] = x[x.length-1]
-// x[x.length-1] = temp
-// console.log(x)
+var x = [11,3,-99,44]
+var temp = x[0]
+x[0] = x[x.length-1]
+x[x.length-1] = temp
+console.log(x)
 
 //6 given an array of numbers, reverse the numbers without creating another array
-// var x = [1,2,3,4,5,6,7,8,9]
-// for (var i=0; i<Math.floor(x.length/2); i++) {
-// 	//take the first number as the temp
-// 	var temp = x[i]
-// 	console.log('temp', temp)
-// 	//swap the last number with the first number - i
-// 	x[i] = x[x.length - 1 - i]
-// 	console.log('x[i]', x[i])
-// 	//swap the temp number with last number - i
-// 	x[x.length - 1 - i] = temp
+var x = [1,2,3,4,5,6,7,8,9]
+for (var i=0; i<Math.floor(x.length/2); i++) {
+	//take the first number as the temp
+	var temp = x[i]
+	console.log('temp', temp)
+	//swap the last number with the first number - i
+	x[i] = x[x.length - 1 - i]
+	console.log('x[i]', x[i])
+	//swap the temp number with last number - i
+	x[x.length - 1 - i] = temp
 
 // }
 // console.log(x)

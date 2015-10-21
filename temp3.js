@@ -7,10 +7,9 @@ for (var i=0; i<x.length; i++) {
 	console.log(x[i])
 	x[i] = x[i+1];
 	//console.log(x)
-	//y.push(x[i])
+	y.push(x[i])
 }
 console.log('done ' ,y);
-
 
 
 //xx given an array of unordered numbers, print out an ordered array

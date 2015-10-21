@@ -1,15 +1,15 @@
 //1 given an array, shift each number to the front, first number should loop to the end
-// var arr = [3,66,77,99,-1]
-// //store first number in temp
-// var temp = arr[0]
-// for (var i=0; i<arr.length; i++) {
-// 	console.log(arr[i])
-// 	//set the current index to be the next index
-// 	arr[i] = arr[i+1];
-// }
-// //set temp to be the last index
-// arr[arr.length-1] = temp
-// console.log(arr)
+var arr = [3,66,77,99,-1]
+//store first number in temp
+var temp = arr[0]
+for (var i=0; i<arr.length; i++) {
+	console.log(arr[i])
+	//set the current index to be the next index
+	arr[i] = arr[i+1];
+}
+//set temp to be the last index
+arr[arr.length-1] = temp
+console.log(arr)
 
 //2 write a function called iSum that takes in a number as an argument, solve it iterativerly
 // iSum(1)=1
@@ -18,19 +18,19 @@
 // iSum(4)=1+2+3+4
 // iSum(5)=1+2+3+4+5
 
-// function iSum(num) {
-// 	var sum = 0
-// 	for (var i=0; i<=num; i++) {
-// 		//console.log(i)
-// 		sum = sum + i
-// 	}
-// 	return sum
-// }
-// console.log(iSum(1))
-// console.log(iSum(2))
-// console.log(iSum(3))
-// console.log(iSum(4))
-// console.log(iSum(5))
+function iSum(num) {
+	var sum = 0
+	for (var i=0; i<=num; i++) {
+		//console.log(i)
+		sum = sum + i
+	}
+	return sum
+}
+console.log(iSum(1))
+console.log(iSum(2))
+console.log(iSum(3))
+console.log(iSum(4))
+console.log(iSum(5))
 
 //Everything that can be solved with recursion can be solved through iteration.  However this is not always true the other way around.
 //3 write a funcation called rSum that takes in a number as an argument, solve it rescurion
@@ -63,18 +63,18 @@
 // iFactorial(5) = 5 * 4 * 3 * 2 * 1  => 120
 
 
-// function iFactorial(num) {
-// 	var multiplier = 1;
-// 	for(var i=1; i<=num; i++) {
-// 		multiplier *= i
-// 	}
-// 	return multiplier
-// }
-// console.log(iFactorial(1))
-// console.log(iFactorial(2))
-// console.log(iFactorial(3))
-// console.log(iFactorial(4))
-// console.log(iFactorial(5))
+function iFactorial(num) {
+	var multiplier = 1;
+	for(var i=1; i<=num; i++) {
+		multiplier *= i
+	}
+	return multiplier
+}
+console.log(iFactorial(1))
+console.log(iFactorial(2))
+console.log(iFactorial(3))
+console.log(iFactorial(4))
+console.log(iFactorial(5))
 
 
 //5 write a recursive function rFactorial that behaves like the following:
