@@ -125,7 +125,7 @@ console.log(iFactorial(5))
 // console.log(iFibonacci(5))
 // console.log(iFibonacci(6))
 
-//7 write a recursive fucntion rFibonacci 
+//7 write a recursive function rFibonacci 
 // iFibonacci(0) = 0        => 0 static
 // iFibonacci(1) = 1        => 1 static
 // iFibonacci(2) = 1     	=> 1 static

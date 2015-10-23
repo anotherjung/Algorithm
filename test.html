@@ -1,0 +1,19 @@
+
+<button id="btn-0">Button 1!</button>
+<button id="btn-1">Button 2!</button>
+<button id="btn-2">Button 3!</button>
+
+<script type="text/javascript">
+    var prizes = ['Apple', 'Orange', 'Lemon'];
+    
+    for (var btnNum = 0; btnNum < prizes.length-1; btnNum++) {
+        
+        // for each of our buttons, when the user clicks it...
+        document.getElementById('btn-' + btnNum).onclick = function (event) { 
+        	//console.log(prizes[btnNum]);
+        	//console.log(event.target.id);
+        	console.log(event.target.id);
+        	alert(prizes[event.target.id.split('-')[1]]);
+     	}
+    }
+</script>

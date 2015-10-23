@@ -46,7 +46,7 @@ function person3(first, last, age, eyeColor) {
 //with a constructor function, you can use the new keyword to create new objects from the smae protoype
 var myFather2 = new person3("jo", "bb", 11, "blue");
 var myMother2 = new person3("wendy", "cc", 22, "green");
-console.log(''myFather2.firstName + " " + myFather2.age);
+console.log(myFather2.firstName + " " + myFather2.age);
 console.log(myMother2.firstName + " " + myMother2.age);
 
 
